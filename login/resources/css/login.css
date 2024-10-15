@@ -244,7 +244,7 @@ html {font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "S
 
 @media (min-width: 640px) {
   html {
-  background-image: url(../img/guildOnHill.jpeg);
+  background-image: url(../img/guildOnHill.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
