@@ -31,12 +31,6 @@
                             <input tabindex="3" id="password" class="${properties.kcInputClass!} input input-bordered w-full" name="password" type="password" autocomplete="current-password"
                                    aria-invalid="<#if messagesPerField.existsError('username','password')>true</#if>"
                             />
-                            <!--<button class="${properties.kcFormPasswordVisibilityButtonClass!}" type="button" aria-label="${msg("showPassword")}"
-                                    aria-controls="password" data-password-toggle tabindex="4"
-                                    data-icon-show="${properties.kcFormPasswordVisibilityIconShow!}" data-icon-hide="${properties.kcFormPasswordVisibilityIconHide!}"
-                                    data-label-show="${msg('showPassword')}" data-label-hide="${msg('hidePassword')}">
-                                <i class="${properties.kcFormPasswordVisibilityIconShow!}" aria-hidden="true"></i>
-                            </button>-->
                         </div>
 
                         <#if usernameHidden?? && messagesPerField.existsError('username','password')>
