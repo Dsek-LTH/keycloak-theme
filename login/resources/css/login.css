@@ -252,6 +252,12 @@ html {font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "S
 }
 }
 
+@media (max-width: 640px) {
+  .shadow-2xl {
+    box-shadow: 0 0;
+  }
+}
+
 .card-title {
   color: oklch(0.278078 0.029596 256.848);
 }
@@ -282,6 +288,11 @@ label {
   .checkbox {
     --chkbg: #252525;
     --chkfg: #ffffff;
+  }
+
+  html {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
   }
 
 }
@@ -326,3 +337,6 @@ input:focus {
   background-color: oklch(0.7176 0.221 22.18);
   margin-top: 0.5rem;
 }
+.btn-secondary{background-color:#9966CC;border-color:#9966CC;color:#FFFFFF;outline-color:#9966CC;}
+.btn-secondary:hover{background-color:#7b49ad;outline-color:#7b49ad;border-color:#7b49ad;}
+.btn-secondary:focus{border-color:#7b49ad;outline-color:#7b49ad;}
