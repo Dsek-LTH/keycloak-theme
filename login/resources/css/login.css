@@ -248,6 +248,7 @@ html {font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "S
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   backdrop-filter: blur(10px);
 }
 }
@@ -340,3 +341,13 @@ input:focus {
 .btn-secondary{background-color:#9966CC;border-color:#9966CC;color:#FFFFFF;outline-color:#9966CC;}
 .btn-secondary:hover{background-color:#7b49ad;outline-color:#7b49ad;border-color:#7b49ad;}
 .btn-secondary:focus{border-color:#7b49ad;outline-color:#7b49ad;}
+
+@media (min-width: 1524px) {
+  .login-container {
+    width: 27%;
+  }
+}
+.page-container {
+  display: flex;
+  align-items: center;
+}
