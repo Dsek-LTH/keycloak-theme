@@ -37,7 +37,7 @@
     </#if>
 </head>
 
-<body class="${properties.kcBodyClass!}  min-h-screen">
+<body class="${properties.kcBodyClass!}  page-container min-h-screen">
 <div class="${properties.kcLoginClass!} login-container container bg-white mx-auto sm:w-8/12 md:w-6/12 lg:w-4/12 shadow-2xl card p-2 md:my-8 dark:bg-gray-800">
     <div id="kc-header" class="${properties.kcHeaderClass!} mx-auto">
         <div id="kc-header-wrapper"
