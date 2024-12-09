@@ -24,9 +24,9 @@
                     </div>
 
                     <#if messagesPerField.existsError('password')>
-                        <span id="input-error-password" class="${properties.kcInputErrorMessageClass!}" aria-live="polite">
+                        <span id="input-error-password" class="alert alert-error mt-1 ${properties.kcInputErrorMessageClass!}" aria-live="polite">
                             ${kcSanitize(messagesPerField.get('password'))?no_esc}
-                        </span> <!--FIX THIS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                        </span>
                     </#if>
                 </div>
             </div>
