@@ -132,7 +132,7 @@
           </#if>
         </div>
         <div class="text-center">
-            <span class="text-neutral-500 dark:text-neutral-400 text-center text-xs">${msg("dwww-contact")} <a class="underline" href="mailto:dwww@dsek.se">DWWW</a></span>
+            <span class="text-neutral-500 dark:text-neutral-400 text-center text-xs">${msg("dwww-contact")} <a class="underline" href="mailto:processmastare@dsek.se">CPU</a></span>
              
              <#if realm.internationalizationEnabled  && locale.supported?size gt 1>
                 <div class="${properties.kcLocaleMainClass!}" id="kc-locale">
