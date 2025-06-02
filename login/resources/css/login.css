@@ -109,7 +109,7 @@ img{max-width:100%;height:auto;}
 .lg\:w-4\/12{width:33.333333%;}
 }
 @media (prefers-color-scheme: dark){
-.dark\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity));}
+.dark\:bg-gray-800{--tw-bg-opacity:1;background-color:#252225;}
 .dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity));}
 .dark\:text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163 / var(--tw-text-opacity));}
 }
@@ -230,7 +230,7 @@ img{max-width:100%;height:auto;}
 .lg\:w-4\/12{width:33.333333%;}
 }
 @media (prefers-color-scheme: dark){
-.dark\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity));}
+.dark\:bg-gray-800{--tw-bg-opacity:1;background-color:#252225;}
 .dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity));}
 .dark\:text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163 / var(--tw-text-opacity));}
 }
@@ -278,12 +278,12 @@ label {
   }
 
   input.input-bordered, .checkbox {
-    background-color: oklch(0.253267 0.015896 252.418) !important;
-    border-color: oklch(0.278078 0.029596 256.848 / 0.2) !important;
+    background-color: #1c1a1c !important;
+    border-color: rgba(61, 67, 77, 0.8) !important;
   }
 
   input.input-focus:focus {
-    outline-color: oklch(0.746477 0.0216 264.436 / 0.2) !important;
+    outline-color: rgba(119, 128, 140, 0.2) !important;
   }
 
   .checkbox {
@@ -293,7 +293,7 @@ label {
 
   html {
     --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    background-color: #252225;
   }
 
 }
